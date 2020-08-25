@@ -7,6 +7,7 @@
 }
 
 #title{
+    padding-top: 1rem;
     font-family: 'Russo One', sans-serif;
 }
 
@@ -14,10 +15,42 @@
     background-image:linear-gradient(to top, rgba(0,0,0,.9), rgba(27, 27, 27, 0.8)), url(img/831541.jpg);
     background-attachment: fixed;
     background-size: cover;
-    padding-top: 100px;
+    border-radius: 5px;
+    
+}
+
+#image{
+    border-radius: 5px;
+    padding: 1rem;
+   
 }
 
 #img-caption{
-    padding: 50px 100px 50px 100px;
+    padding: 1rem;
     color: #ffebcd;
+}
+
+#tribute-info{
+    text-align: left;
+}
+
+.img-album{
+    filter: grayscale(100%);
+    transition: .5s ease;
+}
+
+.img-album:hover{
+    filter: none;
+    transform: scale(1.025);
+}
+
+blockquote{
+    font-style: italic;
+    font-family: monospace;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    
 }
