@@ -1,0 +1,23 @@
+
+#main{
+    border-radius: 5px;
+    background: #eee;
+    font-family: 'Alata', sans-serif;
+    text-align: center;
+}
+
+#title{
+    font-family: 'Russo One', sans-serif;
+}
+
+#img-div{
+    background-image:linear-gradient(to top, rgba(0,0,0,.9), rgba(27, 27, 27, 0.8)), url(img/831541.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+#img-caption{
+    padding: 50px 100px 50px 100px;
+    color: #ffebcd;
+}
